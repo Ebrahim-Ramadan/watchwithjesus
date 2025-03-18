@@ -9,15 +9,20 @@
     ],
     "action": {
       "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon.jpeg",
-        "48": "icon.jpeg",
-        "128": "icon.jpeg"
+        "default_icon": {
+          "16": "icon16.jpeg",
+          "48": "icon48.jpeg",
+          "128": "icon128.jpeg"
+      },
+      "icons": {
+        "16": "icon16.jpeg",
+        "48": "icon48.jpeg",
+        "128": "icon128.jpeg"
       }
     },
     "icons": {
-      "16": "icon.jpeg",
-      "48": "icon.jpeg",
-      "128": "icon.jpeg"
+      "16": "icon16.jpeg",
+      "48": "icon48.jpeg",
+      "128": "icon128.jpeg"
     }
   }
