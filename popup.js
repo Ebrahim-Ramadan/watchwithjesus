@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     slider.oninput = function() {
       const volume = this.value;
       volumeDisplay.textContent = `${volume}%`;
+      console.log('volume', volume);
+      
       applyVolumeBoost(volume / 100);
     };
   
