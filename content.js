@@ -8,10 +8,8 @@ function setupAudioProcessing() {
   if (!audioContext) {
     audioContext = new (window.AudioContext || window.webkitAudioContext)();
     
-    // Create Gain Node for volume control
     gainNode = audioContext.createGain();
     
-    // Create Compressor to manage dynamic range
     compressorNode = audioContext.createDynamicsCompressor();
     compressorNode.threshold.setValueAtTime(-5, audioContext.currentTime); // Threshold in dB
     compressorNode.knee.setValueAtTime(30, audioContext.currentTime);      // Smooth transition
@@ -19,11 +17,9 @@ function setupAudioProcessing() {
     compressorNode.attack.setValueAtTime(0.003, audioContext.currentTime); // Attack time in seconds
     compressorNode.release.setValueAtTime(0.250, audioContext.currentTime); // Release time in seconds
 
-    // Create Limiter to prevent clipping
     limiterNode = audioContext.createGain();
     limiterNode.gain.value = 0.95; // Set a safe maximum level (below 1.0 to avoid clipping)
 
-    // Connect nodes: Source -> Compressor -> Gain -> Limiter -> Destination
     compressorNode.connect(gainNode);
     gainNode.connect(limiterNode);
     limiterNode.connect(audioContext.destination);
