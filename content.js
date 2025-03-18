@@ -13,7 +13,7 @@ function setupAudioProcessing() {
     
     // Create Compressor to manage dynamic range
     compressorNode = audioContext.createDynamicsCompressor();
-    compressorNode.threshold.setValueAtTime(-10, audioContext.currentTime); // Threshold in dB
+    compressorNode.threshold.setValueAtTime(-5, audioContext.currentTime); // Threshold in dB
     compressorNode.knee.setValueAtTime(30, audioContext.currentTime);      // Smooth transition
     compressorNode.ratio.setValueAtTime(12, audioContext.currentTime);     // Compression ratio
     compressorNode.attack.setValueAtTime(0.003, audioContext.currentTime); // Attack time in seconds

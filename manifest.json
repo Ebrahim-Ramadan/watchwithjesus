@@ -10,19 +10,19 @@
     "action": {
       "default_popup": "popup.html",
         "default_icon": {
-          "16": "icon16.jpeg",
-          "48": "icon48.jpeg",
-          "128": "icon128.jpeg"
+          "16": "icon16.jpg",
+          "48": "icon48.jpg",
+          "128": "icon128.jpg"
       },
       "icons": {
-        "16": "icon16.jpeg",
-        "48": "icon48.jpeg",
-        "128": "icon128.jpeg"
+        "16": "icon16.jpg",
+        "48": "icon48.jpg",
+        "128": "icon128.jpg"
       }
     },
     "icons": {
-      "16": "icon16.jpeg",
-      "48": "icon48.jpeg",
-      "128": "icon128.jpeg"
+      "16": "icon16.jpg",
+      "48": "icon48.jpg",
+      "128": "icon128.jpg"
     }
   }
