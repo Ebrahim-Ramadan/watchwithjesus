@@ -3,6 +3,6 @@
 
 #### To use it, open the <b>Extensions</b> in your browser settings (from the `three dots`), enable the <b>`Developer Mode`</b>, and a new option, called `Load Unpacked`,  click that button to upload this repo (the entire directory), and here you go, watch with jesus peacefully.
 
-![chrome](https://github.com/user-attachments/assets/4431508d-00d9-4c4d-abaa-aaf3f6c79132)
+![WhatsApp Image 2025-03-19 at 21 14 21_6f5d9c31](https://github.com/user-attachments/assets/5e306ba4-1433-4872-89cf-2f4fc75a79cb)
 
-![edge](https://github.com/user-attachments/assets/16cd8948-3020-4a18-82c7-0ad5e4d2ec25)
+![WhatsApp Image 2025-03-19 at 21 14 41_47ec1054](https://github.com/user-attachments/assets/a1d7742a-a153-43a1-9389-e2d7f4e839c6)
